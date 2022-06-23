@@ -1,0 +1,38 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.App {
+    display: flex;
+    height: 100vh;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 50px;
+    
+}
+
+.namesList {
+    height: 50vh;
+    overflow-y: auto;
+    /* width: 30%; */
+    height: 60%;
+    flex: 1;
+}
+
+.chartDiv {
+    flex: 2;
+    height: 60%;
+}
+
+
+
+.listName {
+    padding: 5px;
+
+}
+
+.listName:hover {
+    cursor: pointer;
+    background-color: aliceblue;
+}
